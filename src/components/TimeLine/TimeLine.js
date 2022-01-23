@@ -73,7 +73,7 @@ const Timeline = () => {
         I am a passionate full stack web developer.
         <br />I love to learn new technologies
         <br /> I believe learning is a lifelong process
-        <br />
+        <br /> I am trying to improve every day
         <br />
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
