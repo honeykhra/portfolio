@@ -42,13 +42,13 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  
   { year: 2019, text: "Stated learning coding" },
   { year: 2019, text: "Completed full stack web developer bootcamp" },
   { year: 2019, text: "Learned basics of Javascript,CSS,HTML" },
   { year: 2020, text: "Started learning React" },
   { year: 2020, text: "Started working as a freelance web developer" },
   { year: 2021, text: "Learned NextJs TailwindCSS" },
+  { year: 2022, text: "Joined Pesto Full Stack Web Developer Program" },
 ];
 
 export const Logo = "/images/logo2.png";
