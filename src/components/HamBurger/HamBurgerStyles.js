@@ -2,7 +2,7 @@ import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: grid;
+  display: none;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -10,7 +10,7 @@ export const Container = styled.div`
   padding-top: 2rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: none;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
