@@ -8,7 +8,6 @@ import {
   Container,
   Span,
   Div1,
-  Div2,
   Div3,
   Div4,
   NavLink,
@@ -44,8 +43,11 @@ const Hamburger = () => (
           <Span>HoneyKhra</Span>
         </a>
       </Link>
+      <Div4>
+        <GiHamburgerMenu />
+      </Div4>
     </Div1>
-    <Div2>
+    <Div3 >
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -61,8 +63,7 @@ const Hamburger = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
-    </Div2>
-    <Div3>
+
       <SocialIcons href="https://github.com/honeykhra">
         <AiFillGithub size="3rem" />
       </SocialIcons>
@@ -73,9 +74,6 @@ const Hamburger = () => (
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
-    <Div4>
-      <GiHamburgerMenu />
-    </Div4>
   </Container>
 );
 
