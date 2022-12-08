@@ -3,12 +3,14 @@ import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { GiHoneypot } from "react-icons/gi";
 import { Logo } from "../../constants/constants";
+import GiHamburgerMenu from "./BurgerIcon";
 import {
   Container,
   Span,
   Div1,
   Div2,
   Div3,
+  Div4,
   NavLink,
   SocialIcons,
   Img,
@@ -22,12 +24,11 @@ const Hamburger = () => (
           style={{
             display: "flex",
             alignItems: "center",
+            justifyContent: "center",
             color: "white",
             marginBottom: "20px",
           }}
         >
-          {/* <Img src={Logo} /> */}
-          {/* <GiHoneypot size="2.5rem" /> */}
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -72,6 +73,9 @@ const Hamburger = () => (
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
+    <Div4>
+      <GiHamburgerMenu />
+    </Div4>
   </Container>
 );
 
